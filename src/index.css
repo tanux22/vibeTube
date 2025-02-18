@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -13,9 +14,9 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(147, 44, 44);
+  /* background-color: rgb(224, 94, 192); */
+background: linear-gradient(135deg, rgb(224, 94, 192), rgb(31, 168, 202));
   border-radius: 10px;
-  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -47,7 +48,7 @@ code {
 
 
 .category-btn:hover {
-  background-color: #FC1503 !important;
+  background-color: rgb(31, 168, 202)!important;
   color: white !important;
 }
 

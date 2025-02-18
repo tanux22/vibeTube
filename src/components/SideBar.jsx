@@ -20,14 +20,14 @@ export default function SideBar({selectedCategory,setselectedCategory}) {
             setselectedCategory(Category.name)
           }}
           style={{
-            background: Category.name === selectedCategory ? '#FC1503' : 'initial',
+            background: Category.name === selectedCategory ? 'rgb(31, 168, 202) ' : 'initial',
             color: 'white', 
             marginRight:10
           }}
 
         >
           <span style={{
-            color:Category.name===selectedCategory?'white':'red', 
+            color:Category.name===selectedCategory?'white':'rgb(31, 168, 202)', 
             paddingRight:"10px"
           }}>{Category.icon}</span>
           <span style={{
