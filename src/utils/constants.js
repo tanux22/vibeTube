@@ -15,6 +15,7 @@ import React from 'react';
 
 
 export const categories = [
+  
   { name: 'New', icon: <HomeIcon />, },
   { name: 'Coding', icon: <KeyboardIcon/>, },
   { name: 'Music', icon: <MusicNoteIcon /> },
